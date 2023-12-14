@@ -12,7 +12,11 @@ Due to the constraints posed by the limited number of songs available in our Spo
 The SpotifyDataProcessor class is designed to provide easy access to a user's Spotify account, specifically retrieving information about their top 10 loved songs.
 
 ### Example Usage:
-
+cid = '0b8a840537a24112b19217f9d194980c'  <br>
+secret = '5756cefe5da347d99deea997e266ff98'  <br>
+redirect_uri = "https://github.com/YujieGong/sds-final-project"  <br>
+scope = 'user-library-read'  <br>
+spotify_processor = SpotifyDataProcessor(client_id=cid, client_secret=secret, redirect_uri=redirect_uri, scope=scope)
 
 ### Attributes:
 - `client_id`: Spotify client ID.
