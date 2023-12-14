@@ -129,17 +129,7 @@ Here are the codes we used to retrieve information of the dataset (we did not pu
     df_song_result = spotify_processor.process_spotify_data()`
 
 Here is the df result of the top 10 songs that are recently being liked by the user and we exported as a top_10_songs.csv file
-    index               name                 artist
-    0      1             Mostro  Los Amigos Invisibles
-    1      2          Stay Here                 Marizu
-    2      3  Deeper and Deeper          Jackie Mittoo
-    3      4            Mercado           BaianaSystem
-    4      5            7 Years           Eric Lumiere
-    5      6             Stones       Front Porch Step
-    6      7           Unlonely             Jason Mraz
-    7      8      Setting Forth           Eddie Vedder
-    8      9    I Won't Give Up             Jason Mraz
-    9     10        Stand by Me           Boyce Avenue
+
 
 | index | name  | artist|
 | ------------- | ------------- |------------- |
