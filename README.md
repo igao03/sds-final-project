@@ -1,5 +1,5 @@
 # sds-final-project
-##Overview of the Package
+## Overview of the Package
 Our group has developed a song recommendation package utilizing the Spotipy package and the Spotify track dataset. The package consists of two classes: SpotifyDataProcessor and song. The SpotifyDataProcessor class provides access to Spotify song track data from users. The song class employs various functions to generate song recommendations based on the danceability and energy attributes of songs. The reason for creating this package is to deliver personalized and relevant song suggestions to users based on the attributes(danceability and energy) of the songs they have recently added to their liked song list. Our package provided a foundation for developers interested in developing more complex song recommendation algorithms. The package could also fulfill the needs of users seeking additional song recommendations based on their recently liked tracks.
 
 ## `SpotifyDataProcessor` Class
